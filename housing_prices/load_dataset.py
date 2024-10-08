@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from housing_prices.download_dataset import HOUSING_PATH
 
