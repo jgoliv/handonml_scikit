@@ -1,5 +1,6 @@
 # loading data
 from housing_prices.splitting_data import strat_train_set
+
 housing = strat_train_set.drop("median_house_value", axis=1)
 housing_labels = strat_train_set["median_house_value"].copy()
 
